@@ -38,12 +38,16 @@ a:focus {
 
 h1,
 h2,
-h3,
+{
+  font-family: 'Rock Salt', cursive;
+  font-weight: 200;
+  letter-spacing: 1px;
+} 
+
+/* h3,
 h4,
 h5,
-h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
+h6 */
 
 p {
     margin-bottom: 20px;
@@ -65,7 +69,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 0px 0px 30px 0px;
 }
 
 aside {
@@ -187,17 +191,16 @@ header {
 }
 
 header .header-content {
-    position: relative;
-    width: 100%;
-    padding: 100px 15px;
-    text-align: center;
+  text-align: center;
+  padding: 100px 15px 100px;
+  position: relative; 
+  width: 100%;
 }
 
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 
 header .header-content .header-content-inner hr {
@@ -469,6 +472,10 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.img-responsive {
+    padding-bottom: 30px;
 }
 
 body {
